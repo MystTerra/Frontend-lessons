@@ -65,8 +65,14 @@
 <h4>Генераторы</h4>
 <ul>
     <li>Цвета</li>
-<!--    что-то тут не то-->
-        <ul type="disc">
+    <!-- ахтунг: здесь использованы читы-->
+    <style>
+        ul.square-list {
+            list-style-type: square;
+        }
+    </style>
+
+    <ul class="square-list">
             <li>Color mixer</li>
             <li>Color tester</li>
             <li>Color palette</li>
@@ -81,8 +87,19 @@
             <li>WebLab Favicon</li>
         </ol>
     <li>Фоны</li>
-    <!-- и тут тоже что-то не то-->
-        <ul type="disc">
+    <!-- ахтунг: здесь использованы читы-->
+    <style>
+        ul.circle-list {
+            list-style-type: none;
+        }
+
+        ul.circle-list li::before {
+            content: "\25E6"; /* Unicode character for an empty bullet (white bullet) */
+            margin-right: 0.5em; /* Adjust the spacing between the bullet and the text */
+        }
+    </style>
+
+    <ul class="circle-list">
             <li>BgMaker</li>
             <li>StripeGenerator</li>
         </ul>
