@@ -1,0 +1,44 @@
+h1, h2, p, div {
+    width: 500px;
+}
+
+h1, h2 {
+    color: red;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    width: 650px;
+}
+
+.text {
+    display: inline;
+    margin-right: 10px;
+    color: red;
+    font-size: 35px;
+}
+
+.line {
+    flex-grow: 1;
+    border-bottom: 1px solid RGB(218, 216, 217);
+}
+
+.info {
+    font-style: italic;
+    margin: 0;
+    color: gray;
+}
+
+.command {
+    background: linear-gradient(to bottom, rgb(67, 67, 67), black);
+    color: white;
+    margin: 0;
+    padding: 15px 10px;
+    width: 650px;
+}
+
+h2 {
+    font-weight: 200;
+    margin-top: 30px;
+}

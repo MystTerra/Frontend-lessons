@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(189, 188, 188);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+}
+
+.first {
+    display: flex;
+    align-self: flex-end;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid green;
+}
+
+.second {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 200px solid green;
+}
+
+.third {
+    display: flex;
+    align-self: flex-end;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid green;
+}

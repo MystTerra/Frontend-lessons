@@ -1,0 +1,16 @@
+body {
+    background-color: RGB(0, 139, 139);
+}
+
+p {
+    width: 300px;
+    height: 50px;
+    background-color: RGB(245, 245, 220);
+    color: RGB(226, 139, 88);
+    text-align: justify;
+    overflow: auto;
+    padding: 10px;
+    border: 5px double RGB(35, 144, 31);
+    border-left: 0;
+    border-right: 0;
+}

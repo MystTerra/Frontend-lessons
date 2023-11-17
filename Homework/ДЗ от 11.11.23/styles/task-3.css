@@ -1,0 +1,15 @@
+h1 {
+    color: RGB(0, 128, 0);
+    margin: 0;
+}
+
+h2 {
+    color: RGB(85, 107, 47);
+    margin: 0;
+}
+
+p {
+    width: 370px;
+    text-align: justify;
+    margin: 8px 0px;
+}

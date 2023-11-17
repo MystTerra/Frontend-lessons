@@ -1,0 +1,11 @@
+body {
+    background-color: RGB(254, 221, 172);
+}
+
+p {
+    width: 200px;
+    padding-left: 15px;
+    margin-left: 25px;
+    border-left: 3px dashed blue;
+    text-align: justify;
+}

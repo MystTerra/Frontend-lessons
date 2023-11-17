@@ -22,10 +22,38 @@
     src: url("../fonts/Montserrat/static/Montserrat-Bold.ttf");
 }
 
+@font-face {
+    font-weight: 100;
+    font-family: Monteserrat;
+    src: url("../fonts/Montserrat/static/Montserrat-Thin.ttf");
+}
+
+@font-face {
+    font-weight: 300;
+    font-family: Monteserrat;
+    src: url("../fonts/Montserrat/static/Montserrat-Light.ttf");
+}
+
+@font-face {
+    font-weight: 500;
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat/static/Montserrat-Medium.ttf");
+}
+
+.block-wrapper {
+    width: 1110px;
+    margin: 0 auto;
+}
+
 .menu-flex {
+    width: auto;
+    margin: 0;
+    padding: 0;
     display: flex;
     list-style-type: none;
     align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /* ul {
@@ -40,21 +68,31 @@ li {
 } */
 
 li {
-    padding-top: 60px;
-    padding-left: 35px;
+    padding-right: 20px;
+    flex-wrap: wrap;
     font-family: Montserrat;
     font-weight: normal;
 }
+li:last-child {
+    padding-right: 0;
+}
+
+.basket {
+    padding-left: 80px;
+    width: 91px;
+}
 
 .nav-wrapper {
-    width: 1920px;
+    /* width: 1920px; */
     height: 800px;
     background-color: #F9F6F1;
 }
 
 .nav-style {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 60px;
 }
 
 /* .logo-title {
@@ -99,7 +137,7 @@ li {
 
 .slider-wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 172px;
     padding: 0;
 }
@@ -110,9 +148,9 @@ li {
     font-family: Montserrat;
     font-weight: 400;
     font-size: 30px;
-    width: 570px;
+    width: 560px;
     padding: 0;
-    margin-left: 150px;
+    /* margin-left: 150px; */
 }
 
 .text-content h1 {
@@ -122,6 +160,13 @@ li {
     margin-bottom: 55px;
     padding: 0;
 }
+
+/* .text-content h2 {
+    font-weight: 400;
+    font-family: Monteserrat;
+    font-size: 24px;
+    text-transform: uppercase;
+} */
 
 /* .text-content h3 {
     font-family: Montserrat, serif;
@@ -154,22 +199,115 @@ li {
 .image-content {
     display: flex;
     flex-direction: column;
-    margin-left: 150px;
-}
-
-.basket {
-    margin-left: 101px;
+    /* margin-left: 150px; */
+    width: 550px;
 }
 
 .delivery {
     width: 1920px;
     height: 235px;
+    padding: 40px 0;
     background-color: #000000;
     color: #FFFFFF;
     text-align: center;
     font-family: Montserrat;
 }
 
+.delivery h1 {
+    padding-top: 80px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
 .delivery h3 {
     font-family: Montserrat;
+    font-weight: 100;
+}
+
+.thin-weight {
+    font-family: Montserrat;
+    font-weight: 300;
+}
+
+.collection-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    background-color: #F9F6F1;
+}
+
+.collection-text-content {
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 30px;
+    width: 960px;
+    height: 250px;
+    padding: 0;
+    background-color: #F9F6F1;
+}
+
+.collection-text-content h2 {
+    font-weight: 400;
+    font-family: Montserrat;
+    font-size: 24px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.collection-image-content h4{
+    font-weight: 300;
+    font-family: Montserrat;
+    font-size: 16px;
+}
+
+.collection-text-content button {
+    width: 80px;
+    height: 30px;
+    background-color: #D7B399;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.collection-text-content button,
+.collection-text-content button:active,
+.collection-text-content button:focus {
+    border: none;
+}
+
+.collection-image-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #F9F6F1;
+    width: 960px;
+    height: 250px;
+}
+
+.collection-image-content img {
+    width: 190px;
+    height: 171px;
+    margin-top: 40px;
+}
+
+.background-style {
+    display: block;
+    background-color: #F9F6F1;
+}
+
+.medium-text {
+    font-weight: 500;
+    font-family: Montserrat;
+}
+
+.light-text {
+    font-weight: 300;
+    font-family: Montserrat;
+}
+
+.collection-block-wrapper {
+    width: 1920px;
+    margin: 0 auto;
+    background-color: #F9F6F1;
 }

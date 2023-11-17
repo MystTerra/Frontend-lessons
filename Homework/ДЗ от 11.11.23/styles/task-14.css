@@ -1,0 +1,25 @@
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-family:'Open Sans', sans-serif;
+    font-size: 16px;
+    color: RGB(73, 104, 144);
+    border: 1px solid rgb(197, 197, 197);
+    border-bottom: 0;
+}
+
+.dictionaries {
+    background-color: RGB(69, 118, 186);
+    color: white;
+}
+
+.border-bottom {
+    border-bottom: 1px solid rgb(197, 197, 197);
+}
